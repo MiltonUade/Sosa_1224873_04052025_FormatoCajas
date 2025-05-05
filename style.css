@@ -1,0 +1,153 @@
+.logo-header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo-img {
+    max-width: 200px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #000);
+    border-radius: 40px;
+    opacity: 0.9; 
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fuente y colores base */
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Sección de bienvenida */
+  .bienvenida {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .bienvenida h2 {
+    font-size: 2rem;
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradienteAnimado 8s ease infinite;
+    margin-bottom: 10px;
+  }
+  
+  /* Animación del gradiente */
+  @keyframes gradienteAnimado {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Formulario */
+  .formulario-registro {
+    background-color: rgba(92, 107, 105, 0.8); 
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .formulario-registro h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #39dce7;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  form input:focus,
+  form select:focus {
+    border-color: #093b5fc4;
+    outline: none;
+  }
+  
+  form input[type="submit"] {
+    background-color: #6f9dbec0;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 40px;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./img/limit.png'); /* Cambiá por tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 20px;
+  }
+  

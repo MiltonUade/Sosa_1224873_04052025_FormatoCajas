@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SosaFit - Registro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="logo-header">
+    <img class="logo-img" src="./img/logo.png" alt="Logo MiltonFit">
+  </header>
+
+  <main>
+    <section class="bienvenida">
+      <h2>¡Entrená con nosotros!</h2>
+      <p>Elegí tu plan ideal y comenzá hoy mismo.</p>
+    </section>
+
+    <section class="formulario-registro">
+      <h2>Formulario de Registro</h2>
+      <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required />
+
+        <label for="plan">Tipo de Plan:</label>
+        <select id="plan" name="plan">
+          <option value="mensual">Mensual</option>
+          <option value="trimestral">Trimestral</option>
+          <option value="anual">Anual</option>
+        </select>
+
+        <label for="horario">Horario Preferido:</label>
+        <select id="horario" name="horario">
+          <option value="mañana">Mañana (7 a 11 hs)</option>
+          <option value="tarde">Tarde (14 a 18 hs)</option>
+          <option value="noche">Noche (19 a 23 hs)</option>
+        </select>
+
+        <input type="submit" value="Registrarse" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 PowerGym. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
